@@ -1,0 +1,32 @@
+
+
+@import url('bootstrap.css');
+@import url('fonts.css');
+
+
+.h1 {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    background-color: black;
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.wikihow.com%2Fimages%2Fc%2Fc0%2FBake-a-Pizza-Cake-Step-11.jpg&f=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: brown;
+}
+.li a {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+                

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Munchies Eatery</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="delivery.html">Delivery</a></li> 
+                <li><a href="contacts.html">Contact Us</a></li>   
+            </ul>
+        </nav>
+
+        <h1>WELCOME!! <br> To Munchies Eatery</h1>
+        <p>Order Your Favourite Pizza Here:</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                  <form id="new-contact">
+                    <div class="form-group">
+                      <label for="new-first-name">Select Pizza size:</label>
+                      <select type="text" class="form-control" id="new-first-name">
+                          <option value="small">SMALL</option>
+                          <option value="medium">MEDIUM</option>
+                          <option value="large">LARGE</option>
+                          <option value="superlarge">SUPER-LARGE</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="new-last-name">Select Pizza Crust:</label>
+                      <select type="text" class="form-control" id="new-last-name">
+                            <option value="thin">THIN</option>
+                            <option value="thick">THICK</option>
+                            <option value="crispy">CRISPY</option>
+                            <option value="stuffed">STUFFED</option>
+                            <option value="gluten-free">GLUTEN-FREE</option>
+                        </select>
+                    </div>
+         
+                    <div id="new-addresses">
+                      <div class="new-address">
+                        <div class="form-group">
+                          <label for="new-street">Street</label>
+                          <input type="text" class="form-control new-street">
+                        </div>
+                        <div class="form-group">
+                          <label for="new-city">City</label>
+                          <input type="text" class="form-control new-city">
+                        </div>
+                        <div class="form-group">
+                          <label for="new-county">County</label>
+                          <input type="text" class="form-control new-county">
+                        </div>
+                      </div>
+                    </div>
+         
+                    <span class="btn btn-primary" id="add-address">Another address</span>
+         
+                    <button type="submit" class="btn">Add</button>
+                  </form>
+         
+                  <h2>Contacts:</h2>
+                  <ul id="contacts">
+         
+                  </ul>
+                </div>
+         
+                <div class="col-md-6">
+                  <div id="show-contact">
+                    <h2></h2>
+                    <p>First name: <span class="first-name"></span></p>
+                    <p>Last name: <span class="last-name"></span></p>
+                    <p>Addresses:</p>
+                    <ul id="addresses">
+         
+                    </ul>
+                  </div>
+                </div>
+         
+              </div>
+        </div>
+ 
+      </div>
+    </body>
+   </html>
+   
