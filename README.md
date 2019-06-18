@@ -1,4 +1,4 @@
-# {Munchies Eatery Pizza Place Project}
+# {Munch-down Pizza House Project}
 #### {This project entails code for a pizza place online ordering website. It allows one to order their pizza of choice as well as the size and toppings they would want.} {18/06/2019}
 #### By **{Kennedy Karanja}**
 ## Description
